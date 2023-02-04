@@ -1,164 +1,179 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>
+  <title>
     Formulario CV
-</title>
+  </title>
 
-<!--hoja de estilo general-->
-<link rel="stylesheet" href="estilos/estilo-index.css">	
-        
-<!--hoja de estilo formulario-->
-<!--
-  <link rel="stylesheet" href="estilos/formulario.css">	-->
+  <!--hoja de estilo general-->
+  <link rel="stylesheet" href="estilos/estilo-index.css">
 
+  <!--hoja de estilo formulario-->
+  <!--
+                    <link rel="stylesheet" href="estilos/formulario.css">	-->
 
 </head>
 
 
 <body>
-        <!-- Cabecera -->
-        <header>
-            <img src="imagenes/ejemplo-logotipo.gif" width="189" height="57" alt="No se puede ver el logo"  /> 
-            <h1>Argentina programa 4.0  (HTML - CSS - JS)</h1>
-        </header>
+  <!-- Cabecera -->
+  <header>
+    <img src="imagenes/ejemplo-logotipo.gif" width="189" height="57" alt="No se puede ver el logo" />
+    <h1>Argentina programa 4.0 (HTML - CSS - JS)</h1>
+  </header>
 
-        <!-- formulario : Contenido del cv -->
-        <section>
-              
-            <h1>Crea tu CV como un profesional</h1>
-        
-            <form action="cv.html" method="post" target="_blank">
-                <ul>
-                  <li>
-                    <label>Nombre completo:</label>
-                    <input class="input" type="text" id="user_name" >
-                  </li>
-                    <li>
-                    <label>Desempeño actual:</label>
-                    <input class="input" type="text" id="user_desempenio">
-                  </li>
-                  <li>
-                    <label>Direccion:</label>
-                    <input class="input" type="text" id="user_dire">
-                  </li>
+  <!-- formulario : Contenido del cv -->
+  <section>
 
-                  <li>
-                    <label>Telefono:</label>
-                    <input class="input" type="text" id="user_tel">
-                  </li>
+    <h1>Crea tu CV como un profesional</h1>
 
-                  <li>
-                    <label>Correo electrónico:</label>
-                    <input class="input" type="email" id="user_mail">
-                  </li>
+    <form action="cv.html" method="post" target="_blank">
+      <ul>
+        <li>
+          <label>Nombre completo:</label>
+          <input class="input" type="text" id="user_name">
+        </li>
+        <li>
+          <label>Desempeño actual:</label>
+          <input class="input" type="text" id="user_desempenio">
+        </li>
+        <li>
+          <label>Direccion:</label>
+          <input class="input" type="text" id="user_dire">
+        </li>
 
-                  <li>
-                    <label>Página Web</label>
-                    <input class="input" type="text" id="user_web">
-                  </li>
+        <li>
+          <label>Telefono:</label>
+          <input class="input" type="text" id="user_tel">
+        </li>
 
-                  <li>
-                    <label>Red social</label>
-                    <input class="input" type="text" id="user_redsocial">
-                  </li>
+        <li>
+          <label>Correo electrónico:</label>
+          <input class="input" type="email" id="user_mail">
+        </li>
 
-                  <li>
-                    <p>Experiencia Laboral 1</p>
+        <li>
+          <label>Página Web</label>
+          <input class="input" type="text" id="user_web">
+        </li>
 
-                    <label>Desempeño laboral:</label>
-                    <input class="input" type="text" id="expe1_desempenio">
+        <li>
+          <label>Red social</label>
+          <input class="input" type="text" id="user_redsocial">
+        </li>
 
-                    <label>Compañia:</label>                    
-                    <input class="input" type="text" id="expe1_compania">
+        <li>
+          <p>Conocimientos</p>
+          <label>Habilidades:</label>
+          <textarea class="textarea" id="user_habilidades"></textarea>
+        </li>
 
-                    <label>Período:</label>                    
-                    <input class="input" type="text" id="expe1_periodo">
-              
-                    <label>Experiencia laboral:</label>
-                    <textarea class="textarea" id="user_expe1"></textarea>
-                  
-                  </li>
+        <li>
+          <p>Experiencia Laboral 1</p>
 
-                  <li>                    
-                    <p>Experiencia Laboral 2</p>                    
+          <label>Desempeño laboral:</label>
+          <input class="input" type="text" id="expe1_desempenio">
 
-                    <label>Desempeño laboral:</label>
-                    <input class="input" type="text" id="expe2_desempenio">
+          <label>Compañia:</label>
+          <input class="input" type="text" id="expe1_compania">
 
-                    <label>Compañia:</label>                    
-                    <input class="input" type="text" id="expe2_compania">
+          <label>Período:</label>
+          <input class="input" type="text" id="expe1_periodo">
 
-                    <label>Período:</label>                    
-                    <input class="input" type="text" id="expe2_periodo">
-              
-                    <label>Experiencia laboral:</label>
-                    <textarea class="textarea" id="user_expe2"></textarea>
-                  
-                  </li>
+          <label>Experiencia laboral:</label>
+          <textarea class="textarea" id="user_expe1"></textarea>
 
-                  <li>                    
-                    <p>Experiencia Laboral 3</p>                    
+        </li>
 
-                    <label>Desempeño laboral:</label>
-                    <input class="input" type="text" id="expe3_desempenio">
+        <li>
+          <p>Experiencia Laboral 2</p>
 
-                    <label>Compañia:</label>                    
-                    <input class="input" type="text" id="expe3_compania">
+          <label>Desempeño laboral:</label>
+          <input class="input" type="text" id="expe2_desempenio">
 
-                    <label>Período:</label>                    
-                    <input class="input" type="text" id="expe3_periodo">
-              
-                    <label>Experiencia laboral:</label>
-                    <textarea class="textarea" id="user_expe3"></textarea>
-                  
-                  </li>
+          <label>Compañia:</label>
+          <input class="input" type="text" id="expe2_compania">
 
-                  <li>                    
-                    <p>Educación</p>                    
+          <label>Período:</label>
+          <input class="input" type="text" id="expe2_periodo">
 
-                    <label>Facultad:</label>
-                    <input class="input" type="text" id="facu_nombre">
+          <label>Experiencia laboral:</label>
+          <textarea class="textarea" id="user_expe2"></textarea>
 
-                    <label>Direccion:</label>                    
-                    <input class="input" type="text" id="facu_direccion">   
+        </li>
 
-                    <label>Ubicacion:</label>                    
-                    <input class="input" type="text" id="facu_ubicacion">   
+        <li>
+          <p>Experiencia Laboral 3</p>
 
-                    <label>Período:</label>                    
-                    <input class="input" type="text" id="facu_periodo">   
-                  
-                    <label>Web:</label>                    
-                    <input class="input" type="text" id="facu_web">
-                  </li>
+          <label>Desempeño laboral:</label>
+          <input class="input" type="text" id="expe3_desempenio">
 
-                </ul>
-                
-                <div>
-                    <button>Crear currículum</button> 
-                </div>                             
-                        
-            </form>
- 
-        </section>
+          <label>Compañia:</label>
+          <input class="input" type="text" id="expe3_compania">
+
+          <label>Período:</label>
+          <input class="input" type="text" id="expe3_periodo">
+
+          <label>Experiencia laboral:</label>
+          <textarea class="textarea" id="user_expe3"></textarea>
+
+        </li>
+
+        <li>
+          <p>Educación</p>
+
+          <label>Facultad:</label>
+          <input class="input" type="text" id="facu_nombre">
+
+          <label>Direccion:</label>
+          <input class="input" type="text" id="facu_direccion">
+
+          <label>Ubicacion:</label>
+          <input class="input" type="text" id="facu_ubicacion">
+
+          <label>Período:</label>
+          <input class="input" type="text" id="facu_periodo">
+
+          <label>Web:</label>
+          <input class="input" type="text" id="facu_web">
+        </li>
+
+      </ul>
+      <br>
+      <div>
+        <button>Crear currículum</button>
+      </div>
+
+    </form>
+
+  </section>
 
 
-        <!-- Contenido relacionado-->
-        <aside>
-                    <h2>Contenido Relacionado</h2>
-                    <a href="https://academy.profesional.ticmas.io/academies" target="_blank">Acceso a TICMAS</a>
-        </aside>    
+  <!-- Contenido relacionado-->
+  <aside>
+    <h2>Contenido Relacionado</h2>
+    <a href="https://academy.profesional.ticmas.io/academies" target="_blank">Acceso a TICMAS</a>
+  </aside>
 
-        <!-- Pie de pagina -->
-        <footer>
-                <a href="https://github.com/german197644/htmlcssjs" target="_blank">https://github.com/german197644/htmlcssjs</a>
-        </footer>
+  <!-- Pie de pagina -->
+  <footer>
+    <br>
+
+    <div class="footer1">
+      <div class="footerH1">
+        <a href="https://github.com/german197644/htmlcssjs"
+          target="_blank">https://github.com/german197644/htmlcssjs</a>
+      </div>
+    </div>
+
+  </footer>
 
   <script src="js/config-cv.js"></script>
 </body>
-</html>    
+
+</html>

@@ -21,68 +21,54 @@
 </head>
 <body>
 
-<!-- Comienzo Wrapper -->
+<!-- Contenedor Principal / lo uso para centrar-->
 <div id="wrapper">
 
-<!-- comeinzo contenedor Area -->
+<!-- Contenedor secundario -->
 <div id="content">
 
 <!-- comienzo del encabezado -->
 <header>
 
-<!-- Begin Contact Section -->
+<!-- comienzo seccion de contacto -->
 <section id="contact-details">
 
-<!-- Begin Profile Image Section -->
+<!-- seccion de imagen -->
 <div class="header_1">
 <img src="imagenes/68.jpg" width="250" height="250" alt="No se puede visualizar la imagen en tu navegador." />
 </div>
-<!-- End Profile Image Section -->
+<!-- fin de imagen -->
 
-<!-- Begin Profile Information Section -->
+<!-- Comienzo datos del usuario -->
 <div class="header_2">
 
-<h1><span id="nombre">Ivan Neal</span></h1>
-<h3 class="profesion">Desarrollador Web / Front End</h3>
+<h1>
+    <span id="nombre"></span>
+</h1>
+
+<h3 id="user_prof" class="profesion"></h3>
 
 <ul class="info_1">
-<li class="address">555 Street Address, Toledo, Ohio, 43606  U.S.A.</li>
+    <li id="direccion" class="address"></li>
 </ul>
 
 <ul class="info_2">
-<li class="phone">(11) 789285942</li>
-<li class="email"><a href="mailto:your-email@gmail.com">ivan.neal@gmail.com</a></li>
-<li class="site_url"><a href="http://www.webcodepro.net/about.php" title="www.ivan.neal.design.com">www.ivan.neal.design.com</a></li>
-<li class="twitter"><a href="http://twitter.com/twitter-screen-name" title="Sigueme en twitter">@ivan_neal_design</a></li>
+    <li id="telefono" class="phone"></li>
+    <li id="correo" class="email"></li>
+    <li id="url" class="site_url"></li>
+    <li id="twit" class="twitter"></li>
 </ul>
 
 </div>
-<!-- End Profile Information Section -->
+<!-- Fin datos de contacto -->
 
 </section>
-<!-- End Contact Section -->
+<!-- fin seccion de contacto -->
 
 </header>
-<!-- End Header -->
+<!-- Fin del encabecezado -->
 
 <div class="clear">&nbsp;</div>
-
-<!-- Comienzo sección perfil--
-<dl>
-<dt>Perfil:</dt>
-<dd>
-
-<section class="summary">
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-</section>
-
-</dd>
-</dl>
-!-- final sección perfil --
-
-<div class="clear">&nbsp;</div>
-
-!-- Seccion de habilidades -->
 
 <dl>
 <dt>Habilidades:</dt>
@@ -149,53 +135,30 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 </dl>
 <!-- End Experience Section -->
 
-<!-- Seccion de publicacion --
-
-<div class="clear">&nbsp;</div>
-    
-<dl>
-<dt>Publications:</dt>
-
-<dd>
-
-<section id="publications">
-
-<a href="http://net.tutsplus.com/tutorials/php/how-to-create-an-advanced-twitter-widget/" target="_blank" title="How to Create an Advanced Twitter Widget">"How to Create an Advanced Twitter Widget"</a>, <a href="http://net.tutsplus.com/" target="_blank" title="Nettuts+">Nettuts+</a>, 8/25/11
-
-</section>
-
-</dd>
-</dl>
-!-- End Publications Section -->
-
 <div class="clear">&nbsp;</div>
 
 <!-- Comienzo sección educación -->
+
 <dl>
-<dt>Educación:</dt>
-<dd>
+    <dt>
+        Educación:
+    </dt>
+    <dd>
+        <section id="education">
 
-<section id="education">
+            <p id="nom_uni" class="bus1"></p>
+            <P id="dir_uni"></P>
+            <P id="ubi_uni"></P>
+            <p class="summary"></p>
+            <p id="periodo_uni" class="time">2021 &#45; 2023</p>
+            <p id="web_uni" class="edu-info">
+                <!--<a href="http://www.uba.com.ar/" target="_blank">www.uba.com.ar</a>-->
+            </p>
 
-<p class="bus1">Universidad de Buenos Aires</p>
-
-Calle Balcarse 3456
-
-<br />
-
-Bs.As. - Argentina
-
-<p class="summary"></p>
-<p class="time">2021 &#45; 2023</p>
-
-<p class="edu-info">
-<a href="http://www.uba.com.ar/" target="_blank" title="Universidad de Bs. As.">www.uba.com.ar</a>
-</p>
-
-</section>
-
-</dd>
+        </section>
+    </dd>
 </dl>
+
 <!-- Fin sección educación -->
 
 <div class="clear">&nbsp;</div>
@@ -212,8 +175,7 @@ Bs.As. - Argentina
 <!-- End Content -->
 
 </div>
-<!-- Fin Wrapper -->
-
+<!-- Fin principal -->
 
 <script src="js/setea-cv.js"></script>
 
