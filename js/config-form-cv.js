@@ -6,6 +6,13 @@
  */
 // definicion del entorno.
 // solo si la variable de entorno no existe la creo.
+
+// foto
+// https://randomuser.me/api/portraits/men/99.jpg
+if (localStorage.getItem("user_foto") === null){
+    localStorage.setItem("user_foto", "https://randomuser.me/api/portraits/men/99.jpg");
+}
+
 if (localStorage.getItem("user_name") === null){
     localStorage.setItem("user_name", "Ivan Neal");
 }
@@ -119,6 +126,7 @@ if (localStorage.getItem("facu_web") === null){
 
 // volcamos los valores al formulario.
 //Datos del titular del CV
+document.getElementById("user_foto").value = localStorage.user_foto;
 document.getElementById("user_name").value = localStorage.getItem("user_name");
 document.getElementById("user_desempenio").value = localStorage.getItem("user_desempenio");
 document.getElementById("user_dire").value = localStorage.getItem("user_dire");
@@ -158,6 +166,14 @@ document.getElementById("facu_web").value =localStorage.getItem("facu_web");
 /**
  * funciones 
  */
+
+
+/** 
+ * Modifica url de la foto del usuario 
+*/
+document.getElementById("user_foto").onchange = function(){
+    localStorage.setItem("user_foto", document.getElementById("user_foto").value);
+}
 
 /** 
  * Modifica el nombre de usuario 

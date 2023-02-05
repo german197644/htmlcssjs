@@ -1,183 +1,175 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset=UTF-8">
-<meta charset="utf-8">
+    <meta charset=UTF-8">
+    <meta charset="utf-8">
 
-<title>CV online</title>
+    <title>CV online</title>
 
-<!-- Metas -->
-<meta name="description" content="A few lines about yourself">
-<meta name="keywords" content="web,developer,designer,resume" />
-<meta name="author" content="Your Name">
+    <!-- Metas -->
+    <meta name="description" content="A few lines about yourself">
+    <meta name="keywords" content="web,developer,designer,resume" />
+    <meta name="author" content="Your Name">
 
-<!-- CSS Stylesheet -->
-<link rel="stylesheet" type="text/css" href="estilos/estilo-cv.css" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="estilos/estilo-cv.css" />
 
-<!--[if lt IE 9]> 
+    <!--[if lt IE 9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
 </head>
+
 <body>
 
-<!-- Contenedor Principal / lo uso para centrar-->
-<div id="wrapper">
+    <!-- Contenedor Principal / lo uso para centrar-->
+    <div id="wrapper">
 
-<!-- Contenedor secundario -->
-<div id="content">
+        <!-- Contenedor secundario -->
+        <div id="content">
 
-<!-- comienzo del encabezado -->
-<header>
+            <!-- comienzo del encabezado -->
+            <header>
 
-<!-- comienzo seccion de contacto -->
-<section id="contact-details">
+                <!-- comienzo seccion de contacto -->
+                <section id="contact-details">
 
-<!-- seccion de imagen -->
-<div class="header_1">
-<img src="imagenes/68.jpg" width="250" height="250" alt="No se puede visualizar la imagen en tu navegador." />
-</div>
-<!-- fin de imagen -->
+                    <!-- seccion de imagen -->
+                    <div id="foto" class="header_1">
+                        <!-- https://randomuser.me/api/portraits/men/99.jpg -->
+                        <!-- imagenes/68.jpg -->
+                    </div>
+                    <!-- fin de imagen -->
 
-<!-- Comienzo datos del usuario -->
-<div class="header_2">
+                    <!-- Comienzo datos del usuario -->
+                    <div class="header_2">
 
-<h1>
-    <span id="nombre"></span>
-</h1>
+                        <h1>
+                            <span id="nombre"></span>
+                        </h1>
 
-<h3 id="user_prof" class="profesion"></h3>
+                        <h3 id="user_prof" class="profesion"></h3>
 
-<ul class="info_1">
-    <li id="direccion" class="address"></li>
-</ul>
+                        <ul class="info_1">
+                            <li id="direccion" class="address"></li>
+                        </ul>
 
-<ul class="info_2">
-    <li id="telefono" class="phone"></li>
-    <li id="correo" class="email"></li>
-    <li id="url" class="site_url"></li>
-    <li id="twit" class="twitter"></li>
-</ul>
+                        <ul class="info_2">
+                            <li id="telefono" class="phone"></li>
+                            <li id="correo" class="email"></li>
+                            <li id="url" class="site_url"></li>
+                            <li id="twit" class="twitter"></li>
+                        </ul>
 
-</div>
-<!-- Fin datos de contacto -->
+                    </div>
+                    <!-- Fin datos de contacto -->
 
-</section>
-<!-- fin seccion de contacto -->
+                </section>
+                <!-- fin seccion de contacto -->
 
-</header>
-<!-- Fin del encabecezado -->
+            </header>
+            <!-- Fin del encabecezado -->
 
-<div class="clear">&nbsp;</div>
+            <div class="clear">&nbsp;</div>
 
-<dl>
-<dt>Habilidades:</dt>
-<dd>
+            <!-- Comienzo seccion habilidades -->
 
-    <section id="skills">
-    <ul class="lista1">        
-        <p>Altualmente poseo conocimientos en HTML, HTML5, PHP, JavaScript, Visual Foxpro, Css, Mysql y Python.</p>
-    </ul>
+            <section id="skills">
+                <dl>
+                    <dt>Habilidades:</dt>
+                    <dd>
+                        <!-- <p id="habilidades">Altualmente poseo conocimientos en HTML, HTML5, PHP, JavaScript, Visual Foxpro, Css, Mysql y Python.</p> -->
+                        <p id="habilidades" class="skills"></p>
 
-    </section>
+                    </dd>
+                </dl>
+            </section>
 
-</dd>
-</dl>
+            <!-- Fin seccion habilidades -->
 
-<!-- End Skills Section -->
+            <div class="clear">&nbsp;</div>
 
-<div class="clear">&nbsp;</div>
+            <!-- Comienzo seccion experiencia -->
 
-<!-- Comienzo seccion experiencia -->
+            <dl>
+                <dt>Experiencia:</dt>
 
-<dl>
-<dt>Experiencia:</dt>
+                <dd>
 
-<dd>
+                    <section>
 
-<section id="experiencia">
+                        <!-- Position #1 -->
 
-<!-- Position #1 -->
+                        <h2 id="expe1_compania" class="top"></h2>
+                        <p id="expe1_desempenio" class="bus1"></p>
+                        <p id="expe1_periodo" class="time"></p>
+                        <p id="user_expe1"></p>
 
-<h2 class="top">Desarrollador Web / Programador</h2>
-<p class="bus1">Nombre de empresa 1</p>
-<p class="time">Febrero/2015 &#45; Presente</p>
+                        <!-- Position #2 -->
 
-<p>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
-</p>
+                        <h2 id="expe2_compania" class="top"></h2>
+                        <p id="expe2_desempenio" class="bus1"></p>
+                        <p id="expe2_periodo" class="time"></p>
+                        <p id="user_expe2"></p>
 
+                        <!-- Position #3 -->
 
-<!-- Position #2 -->
+                        <h2 id="expe3_compania" class="top"></h2>
+                        <p id="expe3_desempenio" class="bus1"></p>
+                        <p id="expe3_periodo" class="time"></p>
+                        <p id="user_expe3"></p>
 
-<h2>Web Developer / Programador</h2>
-<p class="bus1">Company Name 2</p>
-<p class="time">November 2007 &#45; February 2009</p>
+                    </section>
 
-<p>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
-</p>
+                </dd>
+            </dl>
+            <!-- Fin seccion experiencia -->
 
+            <div class="clear">&nbsp;</div>
 
-<!-- Position #3 -->
+            <!-- Comienzo sección educación -->
 
-<h2>Web Developer / Programmer</h2>
-<p class="bus1">Company Name 3</p>
-<p class="time">March 2006 &#45; November 2007</p>
+            <dl>
+                <dt>
+                    Educación:
+                </dt>
+                <dd>
+                    <section id="education">
 
-<p>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-</p>
+                        <p id="nom_uni" class="bus1"></p>
+                        <P id="dir_uni"></P>
+                        <P id="ubi_uni"></P>
+                        <p class="summary"></p>
+                        <p id="periodo_uni" class="time">2021 &#45; 2023</p>
+                        <p id="web_uni" class="edu-info">
+                            <!--<a href="http://www.uba.com.ar/" target="_blank">www.uba.com.ar</a>-->
+                        </p>
 
-</section>
+                    </section>
+                </dd>
+            </dl>
 
-</dd>
-</dl>
-<!-- End Experience Section -->
+            <!-- Fin sección educación -->
 
-<div class="clear">&nbsp;</div>
+            <div class="clear">&nbsp;</div>
 
-<!-- Comienzo sección educación -->
+            <!-- Comienzo pie de página -->
+            <footer id="footer">
 
-<dl>
-    <dt>
-        Educación:
-    </dt>
-    <dd>
-        <section id="education">
+                <div class="clear">&nbsp;</div>
 
-            <p id="nom_uni" class="bus1"></p>
-            <P id="dir_uni"></P>
-            <P id="ubi_uni"></P>
-            <p class="summary"></p>
-            <p id="periodo_uni" class="time">2021 &#45; 2023</p>
-            <p id="web_uni" class="edu-info">
-                <!--<a href="http://www.uba.com.ar/" target="_blank">www.uba.com.ar</a>-->
-            </p>
+            </footer>
+            <!-- Fin pie de página -->
 
-        </section>
-    </dd>
-</dl>
+        </div>
+        <!-- End Content -->
 
-<!-- Fin sección educación -->
+    </div>
+    <!-- Fin principal -->
 
-<div class="clear">&nbsp;</div>
-
-<!-- Comienzo pie de página -->
-<footer id="footer">
-
-    <div class="clear">&nbsp;</div>    
-
-</footer>
-<!-- Fin pie de página -->
-
-</div>
-<!-- End Content -->
-
-</div>
-<!-- Fin principal -->
-
-<script src="js/setea-cv.js"></script>
+    <script src="js/setea-cv.js"></script>
 
 </body>
+
 </html>

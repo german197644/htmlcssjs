@@ -1,5 +1,5 @@
 /*
-    estilos generales
+    General
 */
 html,body {
     /*width: 100%;*/
@@ -12,6 +12,7 @@ header {
     background:#286af0;
     padding:10px 0px;
 }
+
 section {
     width: 80%;
     background: #ccc;
@@ -25,7 +26,7 @@ aside {
     float: right;
     border: 1px solid black;
     width: 19%;    
-    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*Si quisieramos ocultar el contenido relacionado pondriamos setear visibility a hidden*/
     /*visibility: hidden;*/
 }
 
@@ -35,6 +36,7 @@ figure {
 
 img {
     margin-left: 5px;
+    border: 2px solid white;
 }
 
 section h1 {
@@ -76,14 +78,9 @@ a:hover {
     font-weight: bold;
 }
 
-footer a:hover { 
-    text-decoration: underline;
-    color: white;
-    font-weight: bold;
-}
 
 /*
-    Estilo para el formulario.
+    Formulario.
 */
 
 form {
@@ -115,7 +112,7 @@ form {
   label, 
   input,
   textarea {
-    margin-top: 1em;
+    margin-top: 1em;    
   }
 
 
@@ -138,6 +135,12 @@ form {
   
     /* Hacer coincidir los bordes del campo del formulario */
     border: 1px solid #999;
+
+  }
+
+  textarea {
+    /* evitamos que se redimensione*/
+    resize: none;
   }
   
   
@@ -159,7 +162,7 @@ form {
   }
   
 /*
-    Estilo para el botón del formulario.
+    Botones del formulario.
 */
 
   button {
@@ -190,9 +193,8 @@ form {
 
 
 /*
-  Pie de pagina ------------------------------------------------------------
+  Pie de pagina 
 */
-
 
 footer {
   position: relative;
@@ -214,4 +216,10 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+footer a:hover { 
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
 }

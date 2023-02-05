@@ -10,12 +10,8 @@
     Formulario CV
   </title>
 
-  <!--hoja de estilo general-->
+  <!--hoja de estilo -->
   <link rel="stylesheet" href="estilos/estilo-index.css">
-
-  <!--hoja de estilo formulario-->
-  <!--
-                    <link rel="stylesheet" href="estilos/formulario.css">	-->
 
 </head>
 
@@ -23,7 +19,7 @@
 <body>
   <!-- Cabecera -->
   <header>
-    <img src="imagenes/ejemplo-logotipo.gif" width="189" height="57" alt="No se puede ver el logo" />
+    <img src="imagenes/3-1.jpg" width="189" height="57" alt="No se puede ver el logo" />
     <h1>Argentina programa 4.0 (HTML - CSS - JS)</h1>
   </header>
 
@@ -34,6 +30,16 @@
 
     <form action="cv.html" method="post" target="_blank">
       <ul>
+        <li>
+          <p>Contacto</p>
+          <label>URL imagen:</label>
+          <input class="input" type="text" id="user_foto">
+        </li>
+        <!--
+        <li>
+          <label for="foto">Aquí puede subir una foto</label>
+          <input type="file" formaction="https://randomuser.me/api/portraits/men/99.jpg" name="foto" id="foto">
+        </li>  -->
         <li>
           <label>Nombre completo:</label>
           <input class="input" type="text" id="user_name">
@@ -143,12 +149,14 @@
           <input class="input" type="text" id="facu_web">
         </li>
 
+        <li>
+          <br><br>
+          <div>
+            <button>Crear currículum</button>
+          </div>
+          <p></p>
+        </li>
       </ul>
-      <br>
-      <div>
-        <button>Crear currículum</button>
-      </div>
-
     </form>
 
   </section>
@@ -163,7 +171,6 @@
   <!-- Pie de pagina -->
   <footer>
     <br>
-
     <div class="footer1">
       <div class="footerH1">
         <a href="https://github.com/german197644/htmlcssjs"
@@ -173,7 +180,7 @@
 
   </footer>
 
-  <script src="js/config-cv.js"></script>
+  <script src="js/config-form-cv.js"></script>
 </body>
 
 </html>
