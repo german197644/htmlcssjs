@@ -61,10 +61,10 @@ a:active {
 /* Header
   --------------------------------------------------- */
 
-
-#contact-details .header_1 {
+  #contact-details .header_1 {
     float: left;
-    width: 350px;
+    /*width: 350px;*/
+    width: 35%;
     /*border: 1px solid;*/
     text-align: center;
     margin: 40px 0px 0px 20px;
@@ -72,20 +72,23 @@ a:active {
 
 #contact-details .header_1 img {
     border: #fff solid 1px;
-    background: url("../images/bg_img_dark_green.png");
+    /*background: url("../images/bg_img_dark_green.png");*/
     padding: 16px;
     margin: 10px 0px 0px 0px;
 }
 
 #contact-details .header_2 {
     float: left;
-    width: 570px;
+    /*width: 570px;*/
+    width: 57%;
     margin: 40px 0px 0px 10px;
 }
 
+/*
 #contact-details .header_2 a {
     font-weight: normal;
 }
+*/
 
 #contact-details h1 {
     margin: 0px 0px 0px 20px;
@@ -100,54 +103,32 @@ a:active {
     font-style: italic;
 }
 
-#contact-details ul.info_1 {
-    list-style: none;
-    margin: 0px 0px 0px -12px;
-    font-size: 18px;
+#contact-details dt {
+    float: left;
+    width: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
 }
 
-#contact-details ul.info_2 {
-    list-style: none;
-    margin: 0px 0px 15px -12px;
-    font-size: 18px;
-}
-
-#contact-details li.address {
-    background: url("../images/home.png") no-repeat;
+#contact-details dd {
+    float: left;
+    width: 85%;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
     background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
+    padding: 0px 0px 10px 10px;
+    margin: 0px;
 }
-
-#contact-details li.phone {
-    background: url("../images/phone.png") no-repeat;
-    background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
-}
-
-#contact-details li.email {
-    background: url("../images/mail.png") no-repeat;
-    background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
-}
-
-#contact-details li.site_url {
-    background: url("../images/computer.png") no-repeat;
-    background-position: 0px 2px;
-    padding: 0px 0px 12px 40px;
-}
-
-#contact-details li.twitter {
-    background: url("../images/twitter_sm.png") no-repeat;
-    background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
-}
-
 
 
 /* Contenidos main
   --------------------------------------------------- */
 
-h2.top {
+  h2.top {
     margin: 0px;
     font-size: 22px;
     font-weight: bold;

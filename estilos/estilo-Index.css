@@ -26,6 +26,8 @@ aside {
     float: right;
     border: 1px solid black;
     width: 19%;    
+    margin: 1px;
+    padding: 1px;
     /*Si quisieramos ocultar el contenido relacionado pondriamos setear visibility a hidden*/
     /*visibility: hidden;*/
 }
@@ -57,13 +59,14 @@ aside a {
     /*margin: 10px 0px 15px 0px; */
     margin: 0px 0px 0px 2px;
     font-size: 14px;
-    font-weight: solid;
+    font-weight: solid;        
 }
 
 a:link { 
     text-decoration: underline;
     color: #000;      
     font-weight: bold;
+    text-decoration: none;        
 }
 
 a:visited { 

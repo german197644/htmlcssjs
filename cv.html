@@ -16,8 +16,12 @@
     <link rel="stylesheet" type="text/css" href="estilos/estilo-cv.css" />
 
     <!--[if lt IE 9]> 
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Font Awesome
+    <script src="https://kit.fontawesome.com/ea12f82d31.js" crossorigin="anonymous"></script>-->
+    <script src="https://kit.fontawesome.com/ea12f82d31.js"></script>
 
 </head>
 
@@ -36,10 +40,7 @@
                 <section id="contact-details">
 
                     <!-- seccion de imagen -->
-                    <div id="foto" class="header_1">
-                        <!-- https://randomuser.me/api/portraits/men/99.jpg -->
-                        <!-- imagenes/68.jpg -->
-                    </div>
+                    <div id="foto" class="header_1"></div>
                     <!-- fin de imagen -->
 
                     <!-- Comienzo datos del usuario -->
@@ -51,16 +52,36 @@
 
                         <h3 id="user_prof" class="profesion"></h3>
 
-                        <ul class="info_1">
-                            <li id="direccion" class="address"></li>
-                        </ul>
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-house"></i>
+                            </dt>
+                            <dd>
+                                <span id="direccion" class="address"></span>
+                            </dd>
 
-                        <ul class="info_2">
-                            <li id="telefono" class="phone"></li>
-                            <li id="correo" class="email"></li>
-                            <li id="url" class="site_url"></li>
-                            <li id="twit" class="twitter"></li>
-                        </ul>
+                            <dt class="phone">
+                                <i class="fa-solid fa-phone"></i>
+                            </dt>
+                            <dd class="phone">
+                                <span id="telefono"></span>
+                            </dd>
+                            <dt>
+                                <i class="fa-regular fa-envelope"></i>
+                            </dt>
+                            <dd>
+                                <span id="correo" class="email"></span>
+                            </dd>
+                            <dt><i class="fa-solid fa-globe"></i></dt>
+                            <dd>
+                                <span id="url" class="site_url"></span>
+                            </dd>
+                            <dt><i class="fa-brands fa-twitter"></i></dt>
+                            <dd>
+                                <span id="twit" class="twitter"></span>
+                            </dd>
+
+                        </dl>
 
                     </div>
                     <!-- Fin datos de contacto -->

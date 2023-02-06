@@ -1,5 +1,12 @@
 /**
  * 
+ * Desarrollado por: Pogliani, Germán D.
+ * Febrero - 2023
+ * 
+ */
+
+/**
+ * 
  * Seccion cabecera
  * 
  */
