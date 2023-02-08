@@ -4,7 +4,7 @@ estilos por defecto --------------------------------------------------- */
 body {
     /*margin: 0px;
     padding: 0px;
-    /*background: url("../images/bg_dark_green.png");*/
+    /*background: url("...");*/
     background-color: inherit;
     font-size: 16px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -72,7 +72,7 @@ a:active {
 
 #contact-details .header_1 img {
     border: #fff solid 1px;
-    /*background: url("../images/bg_img_dark_green.png");*/
+    /*background: url("...");*/
     padding: 16px;
     margin: 10px 0px 0px 0px;
 }
@@ -125,7 +125,7 @@ a:active {
 }
 
 
-/* Contenidos main
+/* Contenidos main general
   --------------------------------------------------- */
 
   h2.top {

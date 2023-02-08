@@ -5,6 +5,8 @@ Observaciones sobre el proyecto:
     y se los manipula mediante el uso de funcionalidades en JS en el seteado y modificacion de los campos.
     1.2) Se genero otra pagina secundaria (cv.html) en donde se visualizan los datos cargados.
 
-Se penso de esta manera xq solo generando el CV no entendia el hecho de usar funciones JS como se pedia en la consigna.
+    Se penso de esta manera xq solomente generando el CV no se entendia el hecho de implementa funciones JS como se pedia en la consigna.
 
 2) Ambas pagina HTML tienen su hoja de estilos (css) independiente.
+
+3) Para el tratamiento de los datos se uso localStorage en vez de JSON.
