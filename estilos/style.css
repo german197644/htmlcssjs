@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+* {
+    font-family: "Shantell Sans";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
