@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=UTF-8">
+    <meta charset="utf-8">
+
+    <title>CV online</title>
+
+    <!-- Metas -->
+    <meta name="description" content="A few lines about yourself">
+    <meta name="keywords" content="web,developer,designer,resume" />
+    <meta name="author" content="Your Name">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="estilos/estilo-cv.css" />
+
+    <!--[if lt IE 9]> 
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ea12f82d31.js" crossorigin="anonymous"></script>    
+
+</head>
+
+<body>
+
+    <!-- Contenedor Principal / lo uso para centrar-->
+    <div id="wrapper">
+
+        <!-- Contenedor secundario -->
+        <div id="content">
+
+            <!-- comienzo del encabezado -->
+            <header>
+
+                <!-- comienzo seccion de contacto -->
+                <section id="contact-details">
+
+                    <!-- seccion de imagen -->
+                    <div id="foto" class="header_1"></div>
+                    <!-- fin de imagen -->
+
+                    <!-- Comienzo datos del usuario -->
+                    <div class="header_2">
+
+                        <h1>
+                            <span id="nombre"></span>
+                        </h1>
+
+                        <h3 id="user_prof" class="profesion"></h3>
+
+                        <dl>
+                            <dt>
+                                <i class="fa-solid fa-house"></i>
+                            </dt>
+                            <dd>
+                                <span id="direccion" class="address"></span>
+                            </dd>
+
+                            <dt class="phone">
+                                <i class="fa-solid fa-phone"></i>
+                            </dt>
+                            <dd class="phone">
+                                <span id="telefono"></span>
+                            </dd>
+                            <dt>
+                                <i class="fa-regular fa-envelope"></i>
+                            </dt>
+                            <dd>
+                                <span id="correo" class="email"></span>
+                            </dd>
+                            <dt><i class="fa-solid fa-globe"></i></dt>
+                            <dd>
+                                <span id="url" class="site_url"></span>
+                            </dd>
+                            <dt><i class="fa-brands fa-twitter"></i></dt>
+                            <dd>
+                                <span id="twit" class="twitter"></span>
+                            </dd>
+
+                        </dl>
+
+                    </div>
+                    <!-- Fin datos de contacto -->
+
+                </section>
+                <!-- fin seccion de contacto -->
+
+            </header>
+            <!-- Fin del encabecezado -->
+
+            <div class="clear">&nbsp;</div>
+
+            <!-- Comienzo seccion habilidades -->
+
+            <section id="skills">
+                <dl>
+                    <dt>Habilidades:</dt>
+                    <dd>
+                        <!-- <p id="habilidades">Altualmente poseo conocimientos en HTML, HTML5, PHP, JavaScript, Visual Foxpro, Css, Mysql y Python.</p> -->
+                        <p id="habilidades" class="skills"></p>
+
+                    </dd>
+                </dl>
+            </section>
+
+            <!-- Fin seccion habilidades -->
+
+            <div class="clear">&nbsp;</div>
+
+            <!-- Comienzo seccion experiencia -->
+
+            <dl>
+                <dt>Experiencia:</dt>
+
+                <dd>
+
+                    <section>
+
+                        <!-- Position #1 -->
+
+                        <h2 id="expe1_compania" class="top"></h2>
+                        <p id="expe1_desempenio" class="bus1"></p>
+                        <p id="expe1_periodo" class="time"></p>
+                        <p id="user_expe1"></p>
+
+                        <!-- Position #2 -->
+
+                        <h2 id="expe2_compania" class="top"></h2>
+                        <p id="expe2_desempenio" class="bus1"></p>
+                        <p id="expe2_periodo" class="time"></p>
+                        <p id="user_expe2"></p>
+
+                        <!-- Position #3 -->
+
+                        <h2 id="expe3_compania" class="top"></h2>
+                        <p id="expe3_desempenio" class="bus1"></p>
+                        <p id="expe3_periodo" class="time"></p>
+                        <p id="user_expe3"></p>
+
+                    </section>
+
+                </dd>
+            </dl>
+            <!-- Fin seccion experiencia -->
+
+            <div class="clear">&nbsp;</div>
+
+            <!-- Comienzo sección educación -->
+
+            <dl>
+                <dt>
+                    Educación:
+                </dt>
+                <dd>
+                    <section id="education">
+
+                        <p id="nom_uni" class="bus1"></p>
+                        <P id="dir_uni"></P>
+                        <P id="ubi_uni"></P>
+                        <p class="summary"></p>
+                        <p id="periodo_uni" class="time">2021 &#45; 2023</p>
+                        <p id="web_uni" class="edu-info">
+                            <!--<a href="http://www.uba.com.ar/" target="_blank">www.uba.com.ar</a>-->
+                        </p>
+
+                    </section>
+                </dd>
+            </dl>
+
+            <!-- Fin sección educación -->
+
+            <div class="clear">&nbsp;</div>
+
+            <!-- Comienzo pie de página -->
+            <footer id="footer">
+
+                <div class="clear">&nbsp;</div>
+
+            </footer>
+            <!-- Fin pie de página -->
+
+        </div>
+        <!-- End Content -->
+
+    </div>
+    <!-- Fin principal -->
+
+    <script src="js/setea-cv.js"></script>
+
+</body>
+
+</html>
