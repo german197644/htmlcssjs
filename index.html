@@ -1,47 +1,179 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilos/estilo1.css">
     <title>CV Ivan Neal</title>
 </head>
-<body>
 
-    <!-- seccion inicio-->
+<body>
+    <!-- comienzo seccion inicio-->
     <section class="inicio" id="inicio">
         <div class="contenido-seccion">
             <header>
-                <div class="nav-bar">                    
-                        <i class="fa-solid fa-bars"></i>                                       
+                <div class="row">
+                    <div class="nav-bar" onclick="miMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="imprimir">
+                        <i class="fa-solid fa-print"></i>
+                    </div>
                 </div>
-                <div class="nav" id="nav">
+
+                <nav class="nav" id="nav">
                     <a href="#inicio">inicio</a>
-                    <a href="#datos">Datos personales</a>
-                    <a href="#habilidades">Habilidades</a>
+                    <a href="#inicio">Datos personales</a>
+                    <a href="#profile">Perfil</a>
+                    <a href="#skill">Habilidades</a>
                     <a href="#experiencia">Experiencia</a>
                     <a href="#educacion">Educación</a>
+                </nav>
+            </header>
+            <div class="info" id="info">
+                <div class="foto">
+                    <img src="img/foto1.jpg" alt="No se puede ver la foto personal en este navegador!.">
                 </div>
-                <div class="info">
+                <div class="info2">
                     <h1>Ivan Neal</h1>
                     <h2>Desarrollador web</h2>
-                    <h3>San Martin 2345, Santa Fe, Argentina</h3>
-                    <h3>(11) 789285942</h3>
-                    <h3>ivan.neal@gmail.com</h3>
+                    <h3>Dir.: San Martin 2345, Santa Fe, Argentina</h3>
+                    <h3>Tel.:(11) 789285942</h3>
+                    <h3>Email: ivan.neal@gmail.com</h3>
                     <div class="redes">
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>                        
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
-                <div class="foto">
-                    <img src="img/foto1.jpg" alt="No se puede ver la foto personal en este navegador!.">
+            </div>
+        </div>
+    </section>
+    <!-- fin seccion inicio-->
+
+    <!-- comienzo seccion profile-->
+
+    <section class="profile" id="profile">
+        <div class="contenido-profile">
+            <div class="fila">
+                <div class="col-titulo">
+                    <span class="titulo-descripcion">Perfil</span>
                 </div>
-            </header>
-        </div>        
-    </section>    
+                <div class="col-descripcion">
+                    <p class="alinear">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe quisquam eius
+                        illum voluptatum voluptate iure eos inventore laborum, officia, perspiciatis a? Quos iure esse
+                        sapiente earum, nobis eius non reiciendis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- comienzo seccion profile-->
+
+    <!-- comienzo seccion habilidades -->
+    <section class="skill" id="skill">
+        <div class="contenido-skill">
+            <div class="fila">
+                <div class="col-titulo">
+                    Habilidades
+                </div>
+                <div class="col">
+                    <ul class="lista-skill1">
+                        <li>XHTML</li>
+                        <li>HTML5</li>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>Visual FoxPro</li>
+                        <li>WordPress</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="lista-skill2">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>MySQL</li>
+                        <li>jQuery</li>
+                        <li>CMS Made Simple</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin seccion habilidades-->
+
+    <!-- comienzo seccion experiencia -->
+    <section class="experiencia" id="experiencia">
+        <div class="contenido_experiencia">
+            <div class="fila">
+                <div class="col-titulo">
+                    Experiencia
+                </div>
+                <div class="col">
+                    <h2 class="top">Desarrollo web/ Desarrollador</h2>
+                    <h3 class="bus1">Compañia 1</h3>
+                    <h3 class="time">Abril 1996 &#45; Febrero 2007</h3>
+                    <p class="alinear">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi vel laborum
+                        similique officiis mollitia repellendus enim, maiores omnis consequatur doloremque
+                        cupiditate
+                        repudiandae quo laboriosam aut sunt amet ducimus aliquid nesciunt!</p>
+
+                    <h2 class="top">Desarrollo web/ Analista funcional</h2>
+                    <h3 class="bus1">Compañia 2</h3>
+                    <h3 class="time">Marzo 2007 &#45; 2017</h3>
+                    <p class="alinear">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi vel laborum
+                        similique officiis mollitia repellendus enim, maiores omnis consequatur doloremque
+                        cupiditate
+                        repudiandae quo laboriosam aut sunt amet ducimus aliquid nesciunt!</p>
+
+                    <h2 class="top">Desarrollo web/ Diseñador</h2>
+                    <h3 class="bus1">Compañia 3</h3>
+                    <h3 class="time">Febrero 2017 &#45; Presente</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi vel laborum similique officiis
+                        mollitia repellendus enim, maiores omnis consequatur doloremque cupiditate repudiandae quo
+                        laboriosam aut sunt amet ducimus aliquid nesciunt!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin seccion experiencia-->
+
+
+    <!-- comienzo seccion educacion -->
+    <section class="educacion" id="educacion">
+        <div class="contenido-educacion">
+            <div class="fila">
+                <div class="col-titulo">
+                    Educación
+                </div>
+                <div class="col">
+                    <h2>Universidad de Buenos Aires</h2>
+                    <h3>Calle Balcarse 3456</h3>
+                    <h4>Bs.As. - Argentina</h4>
+                    <h5>2021 - 2023</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin seccion educacion-->
+
+    <!-- comienzo pie -->
+    <footer>
+        <div class="pie">            
+            <p>Desarrollador: Pogliani, Germán D.</p>
+            <h3>Argentina Programa 4.0</h3>
+        </div>
+    </footer>
+    <!-- fin pie -->
+
+    <script src="func/funciones.js"></script>
 </body>
+
 </html>
