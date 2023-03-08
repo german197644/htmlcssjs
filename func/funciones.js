@@ -12,7 +12,7 @@ function miMenu(){
     }
 }
 
-// creditos: https://developer.mozilla.org/es/docs/Web/API/Document/querySelectorAll
+// ---------------------------------------
 // ocultar el menu al seleccionar opcion
 let matches = document.querySelectorAll('nav a');
 // recorremos el arreglo con los elementos del mnu
